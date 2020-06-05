@@ -1,3 +1,3 @@
-*NLW STARTER*
+#NLW STARTER
 
-// Rocketseat
+Rocketseat
