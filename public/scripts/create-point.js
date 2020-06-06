@@ -1,5 +1,3 @@
-
-
 function populateUFs() {
     const ufSelect = document.querySelector("select[name=uf]")
 
@@ -75,8 +73,7 @@ function handleSelectedItem (event) {
 
     const itemId = itemLi.dataset.id
 
-
-
+    //console.log('ITEM ID: ', itemId)
 
     // verificar se existe itens selecionados, se sim
     // pegar os itens selecionados
@@ -100,6 +97,8 @@ function handleSelectedItem (event) {
     //adiciona à seleção
     selectedItems.push(itemId)
     }
+
+    //console.log('selectedItems:', selectedItems)
 
     // atualizar o campo escondido com os itens selecionados
     collectedItems.value = selectedItems
